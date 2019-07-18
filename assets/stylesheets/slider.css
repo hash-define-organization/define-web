@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+
+}
+
+.card {
+    position: relative;
+    background: #ffffff;
+    height: 440px;
+    width: 239px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.card .sliderimage{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card .slidercontent {
+    width: 100%;
+    height: 100px;
+    
+   
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.card img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+}
+.card .slidercontent ul li a i{
+    font-size: 1.5em;
+
+}
+.swiper-slide{
+    width: 239px !important;
+}
