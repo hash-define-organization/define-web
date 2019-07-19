@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+
 @media(max-width:824px) {
 }
 .navbar-nav a {
@@ -15,6 +17,7 @@
     transition-duration: 0.4s;
     transform: scale(1,1);
 }
+
 .blueIt {
     color:#40C1FA;
 }
