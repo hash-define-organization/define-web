@@ -17,6 +17,8 @@
 }
 
 .blueIt {
+    font-size:32px !important;
+    display: inline;
     color:#40C1FA;
 }
 .navbar-brand:hover {
