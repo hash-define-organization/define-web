@@ -6,8 +6,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 @media(max-width:824px) {
 }
 .navbar-nav a {
@@ -19,6 +17,8 @@
 }
 
 .blueIt {
+    font-size:32px !important;
+    display: inline;
     color:#40C1FA;
 }
 .navbar-brand:hover {
@@ -31,6 +31,9 @@
     transform: rotateY(0deg);
     transition-duration: 1s;
 }
+.card1 p {
+    /* margin:20px 0px; */
+}
 .navbar-nav a:hover i {
     transform: rotateY(360deg);
 }
@@ -41,7 +44,7 @@
     
     }
     .card1{
-        width: 51%;
+        width: 60%;
     }
     .cards{
         width:100%;
@@ -60,7 +63,7 @@
       
     }
     .card1{
-        width: 51%;
+        width: 60%;
     }
     .cards{
         width: 100%;

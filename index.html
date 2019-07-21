@@ -9,8 +9,34 @@
     <script src="https://kit.fontawesome.com/b06605e970.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/stylesheets/card1.css">
+    <link rel="stylesheet" href="assets/stylesheets/events.css">
     <link rel="icon" href="assets/images/3.png">
+    <script src="assets/js/section.js"></script>
     <title>Hash Define</title>
+    <style>
+      .sketch {
+        background-color:black;
+      }
+      .teamSection {
+        background-color:black;
+      }
+      .aboutSection {
+        background-color:black;
+        padding-bottom:10%;
+      }
+      ::-webkit-scrollbar {
+      width: 10px;
+    }
+      ::-webkit-scrollbar-track {
+        background: black; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #40C1FA; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #40C1FA; 
+      }
+    </style>
 </head>
 <body>
   
@@ -40,7 +66,7 @@
                                             <a class="nav-link" href="#about"><i class="fas fa-question"></i> ABOUT US</a>
                                           </li>
                                           <li class="nav-item">
-                                            <a class="nav-link" href="Hashdefine-master/Events/section.html"><i class="fas fa-calendar-week"></i> EVENTS</a>
+                                            <a class="nav-link" href="#event"><i class="fas fa-calendar-week"></i> EVENTS</a>
                                           </li>  
                                           <li class="nav-item">
                                                   <a class="nav-link" href="#team"><i class="fas fa-user-plus"></i> TEAM</a>
@@ -72,14 +98,13 @@
      <div id="logo">
             <img src="assets/images/3.png" alt="">
      </div>
-     <hr>
    <!------------------------------------------------------- End log Section------------------------------------------------------------------------------>
 
 
 
 
    <!------------------------------------------------------- Start  About Us Section----------------------------------------------------------------------->
-  <section>
+  <section class="aboutSection">
       <div class="container">
           <div id="about">
             <h2>ABOUT US</h2>
@@ -267,8 +292,7 @@
             
                  </div> -->
       <!------------------------------------------------------- Start  Our Team Section----------------------------------------------------------------------->
-   <section>
-
+   <section class="teamSection">
       <section>
           <div id="team">
               <h3>Our team</h3>
@@ -457,7 +481,7 @@
               
           </div>
        </section>
-      <section>
+      
           <div class="banner">
                                                        
               <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle4" aria-hidden="true">
@@ -657,11 +681,70 @@
                       </div>
                     </div>
               </div>
-      </section>
+     
    </section>
    
    <!------------------------------------------------------- End Our Team Section----------------------------------------------------------------------->
-
+   <div id="event" class="e">EVENTS</div> 
+   <section  class="events">  
+            <div class="testimonials">
+               
+                    <div class="card">
+                      <div class="layer">
+                          
+                      </div>
+                      <div class="content">
+                            <h3 class="e-name">Hack-Def 1.0</h3>
+                        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+                        <div class="timerdiv">
+                            <div id="timer">
+                                <div id="days"></div>
+                                <div id="hours"></div>
+                                <div id="minutes"></div>
+                                <div id="seconds"></div>
+                              </div>
+                        </div>
+                        <div class="details">
+                          <a href="">View More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                            <div class="layer">
+                                
+                            </div>
+                            <div class="content">
+                                  <h3 class="e-name">Hack-Def 1.0</h3>
+                              <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+                              <div class="timerdiv">
+                                  <div id="timer">
+                                        <h2 class="end"> Contest Closed</h2>
+                                    </div>
+                              </div>
+                              <div class="details">
+                                <a href="">View More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                                <div class="layer">
+                                    
+                                </div>
+                                <div class="content">
+                                      <h3 class="e-name">Hack-Def 1.0</h3>
+                                  <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</p>
+                                  <div class="timerdiv">
+                                      <div id="timer">
+                                            <h2 class="end"> Contest Closed</h2>
+                                        </div>
+                                  </div>
+                                  <div class="details">
+                                    <a href="">View More</a>
+                                  </div>
+                                </div>
+                              </div>
+    
+</section>
 
 
    <!------------------------------------------------------- Start  Footer Section----------------------------------------------------------------------->
