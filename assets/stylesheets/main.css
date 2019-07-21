@@ -448,7 +448,7 @@ text-align: center;
 }
 .footer-grids{
 	background: #282828;
-    padding: 3em 3em;
+    /* padding: 3em 3em; */
     height: 350px;
     width: 100%;
 }
@@ -473,26 +473,16 @@ p.footer-gd a:hover {
     margin-bottom: 32px;
     font-family: 'Viga', sans-serif;
 }
-.footer.one {
-    width: 37%;
-}
 p.adam{
 	float:right;
 	color:#6F6E6E !important;
 	font-size:13px !important;
 	margin-top:20px;
 }
-.footer.three {
-    width: 23%;
-}
 .footer.one p{
 	color:#908F8F;
 	line-height:2em;
 	font-size:14px;
-}
-.footer.two {
-    width: 23%;
-    margin: 0 8%;
 }
 .footer.two ul{
 	margin:0;
@@ -529,16 +519,16 @@ display:block;
     display: block;
 }
 .footer.three ul li:nth-child(1) {
-    background: url('../images/icon2.png') no-repeat 0px 6px;
-    padding-left: 38px;
+    /* background: url('../images/icon2.png') no-repeat 0px 6px; */
+    /* padding-left: 38px; */
 }
 .footer.three ul li:nth-child(2) {
-    background: url('../images/icon3.png') no-repeat 0px 6px;
-    padding-left: 38px;
+    /* background: url('../images/icon3.png') no-repeat 0px 6px; */
+    /* padding-left: 38px; */
 }
-.footer.three ul li a {
-    background: url('../images/icon1.png') no-repeat 0px 6px;
-    padding-left: 38px;
+.footer.three ul li .mail {
+    /* background: url('../images/icon1.png') no-repeat 0px 6px; */
+    /* padding-left: 38px; */
     display: block;
 	color:#908F8F;
 }
@@ -583,27 +573,8 @@ display:block;
 		width: 100%;
 	}	
 }
-@media (max-width: 1366px){
-	.footer.one {
-		width: 38%;
-	}
-	.footer-grids {
-		padding: 2.5em 2.5em;
-	}	
-}
-@media (max-width: 1280px){
-	.main {
-        width: 100%;
-		
-	}	
-}
 @media (max-width: 1080px){
-	.content {
-		width: 100%;
-	}
-	.footer h3 {
-		font-size: 19px;
-	}
+	
 	.copy-left {
 		float: none;
 		text-align: center;
@@ -619,50 +590,20 @@ display:block;
 	.footer h3 {
 		font-size: 18px;
 	}
-	.main h1 {
-		font-size: 34px;
-	}	
+		
 }
 @media (max-width: 1024px){
-	.footer-grids {
-		padding: 2em 2em;
-	}
+	
 	.content {
 		width: 100%;
 	}
-	.main h1 {
-		font-size: 33px;
-		margin-bottom: 55px;
-	}
-}
-@media (max-width: 991px){
-	.footer.two {
-		width: 27%;
-		margin: 0 5%;
-	}
-	.footer.three {
-		width: 25%;
-	}	
+	
 }
 @media (max-width: 800px){
 	.content {
 		width: 100%;
 	}
-	.footer.one p {
-		font-size: 13px;
-	}
-	.footer.two ul li {
-		font-size: 13px;
-	}
-	.footer.three ul li {
-		font-size: 13px;
-	}	
-	.footer.three ul li:nth-child(1),.footer.three ul li:nth-child(2),.footer.three ul li a{
-		padding-left: 32px;	
-	}
-	.footer h3 {
-		font-size: 16px;
-	}
+	
 }
 @media (max-width: 768px){
 	.content {
@@ -681,48 +622,10 @@ display:block;
 	.main h1 {
 		margin-bottom: 60px;
 	}
-	.footer.one {
-		width: 35%;
-	}
-	.footer.two {
-		width: 29%;
-		margin: 0 4%;
-	}
-	.footer.three {
-		width: 27%;
-	}	
-}
-@media (max-width: 667px){
-	.footer.one {
-		width: 35%;
-	}
-	.footer.two {
-		width: 35%;
-		margin: 0 4% 0 0;
-	}	
-	.footer.three {
-		width: 30%;
-	}
-	.footer.one {
-		margin-bottom: 40px;
-	}
+		
 }
 @media (max-width: 640px){
-    .footer.three{
-        display: none;
-    }
-    .footer.one{
-        display: none;
-    }
-	.main h1 {
-		font-size: 30px;
-	}	
-	.footer-grids {
-		padding: 2.5em 2.5em;
-    }
-    .footer.two{
-        width: 100%;
-    }
+
     .copy-right-grids{
         display: none;
     }
@@ -735,22 +638,16 @@ display:block;
 		margin-bottom: 45px;
 	}
 }
-@media (max-width: 568px){
-	
-}
+
 @media (max-width: 480px){
-	.footer-grids {
-		padding: 1.5em 1.5em;
-	}
+	
 	.copy-right-grids {
 		padding: 20px 10px;
 	}
 	.copy-right ul li {
 		padding: 0 10px;
 	}
-	p.footer-gd {
-		line-height: 1.8em;
-	}	
+		
 	p.adam {
 		margin-top: 9px;
 	}
@@ -760,22 +657,6 @@ display:block;
 	}
 }
 @media (max-width: 414px){
-.footer.two {
-    width: 50%;
-}
-.footer.three {
-    width: 50%;
-}
-.footer h3 {
-    margin-bottom: 18px;
-}
-.footer.one {
-    margin-bottom: 0;
-}
-.footer.two {
-    width: 50%;
-    margin: 30px 0;
-}
 
 .main h1 {
     font-size: 25px;
@@ -783,9 +664,7 @@ display:block;
 .copy-right ul li {
     line-height: 1.8em;
 }
-.footer.two ul li{
-    width: 127%;
-}	
+
 }
 /* @media (max-width: 384px){
 	
@@ -800,8 +679,6 @@ display:block;
 	.main h1 {
 		font-size: 21px;
 	}
-	.footer-grids {
-		padding: 1em 1em;
-	}
+	
 	
 }
